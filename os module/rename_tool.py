@@ -31,7 +31,6 @@ def clean_folder():
         for i in files_to_rename:
             os.rename(i, f"{i}")
 
-
     
     # for i in files_to_rename:
         # new_name=os.path.splittext(i)
