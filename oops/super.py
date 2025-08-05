@@ -6,5 +6,10 @@ class ParentCLass:
 
 class ChildClass(ParentCLass): #extends ParentClass
     def parent_method(self):
-        print("Harry")
-        super()
+        print("this is parent method but from child class")
+        super().parent_method()
+    def child_method(self):
+        print("this is child method")
+
+a=ChildClass()
+a.parent_method()
