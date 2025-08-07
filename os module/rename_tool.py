@@ -8,7 +8,7 @@
 # design.png -- > 4.png
 # name.png -- > 5.png
 
-
+ 
 import os
 print("Current Directory: ", os.getcwd())
 os.chdir("os module\images")
@@ -19,7 +19,8 @@ def clean_folder():
     folder_path=os.getcwd()
 
     try:
-        files_to_rename=[f for f in os.listdir() if os.path.isfile(f)]
+        i=1
+        files_to_rename=[f for f in os.listdir() if os.path.isfile(f) and f.endswith(".jpg")]
     except FileNotFoundError:
         print(f"Error: The directory {os.getcwd()} was not found or is inaccessible")
         return 
@@ -29,7 +30,8 @@ def clean_folder():
     finally:
         print(f"Found {len(files_to_rename)} files to proceed in {os.getcwd()}")
         for i in files_to_rename:
-            os.rename(i, f"{i}")
+            os.rename(i,f"{i}.jpg")
+            
 
     
     # for i in files_to_rename:
@@ -38,5 +40,5 @@ def clean_folder():
 
 
 
-
+ 
 clean_folder()
