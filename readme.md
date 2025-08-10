@@ -4,17 +4,17 @@ Welcome to the ultimate Python guide! This document serves as a comprehensive, a
 
 ## Table of Contents
 
-1. [Getting Started](#getting-started)
-2. [Python Fundamentals](#python-fundamentals)
-3. [Control Flow](#control-flow)
-4. [Functions](#functions)
-5. [Data Structures](#data-structures)
-6. [Advanced Concepts](#advanced-concepts)
-7. [Object-Oriented Programming (OOP)](#object-oriented-programming-oop)
-8. [Advanced OOP Concepts](#advanced-oop-concepts)
-9. [Working with Files & Modules](#working-with-files--modules)
-10. [Functional Programming](#functional-programming)
-11. [Advanced & Interview-Critical Topics](#advanced--interview-critical-topics)
+1. [Getting Started](#1-getting-started)
+2. [Python Fundamentals](#2-python-fundamentals)
+3. [Control Flow](#3-control-flow)
+4. [Functions](#4-functions)
+5. [Data Structures](#5-data-structures)
+6. [Advanced Concepts](#6-advanced-concepts)
+7. [Object-Oriented Programming (OOP)](#7-object-oriented-programming-oop)
+8. [Advanced OOP Concepts](#8-advanced-oop-concepts)
+9. [Working with Files & Modules](#9-working-with-files--modules)
+10. [Functional Programming](#10-functional-programming)
+11. [Advanced & Interview-Critical Topics](#11-advanced--interview-critical-topics)
 
 ---
 
