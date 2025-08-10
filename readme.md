@@ -484,7 +484,7 @@ class Person:
 
     @classmethod
     def from_birth_year(cls, name, birth_year):
-        age = 2023 - birth_year
+        age = 2025 - birth_year
         return cls(name, age)
 
 person = Person.from_birth_year("Alice", 1990)
@@ -688,7 +688,7 @@ matches = re.findall("ai", text)
 print(matches) # Output: ['ai', 'ai']
 
 # Search for the first white-space character
-search = re.search("\s", text)
+search = re.search(r"\s", text)
 print(f"First white-space at position: {search.start()}")
 
 Multithreading vs Multiprocessing
