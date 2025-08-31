@@ -6,7 +6,7 @@
 
 
 def greet(fx):
-    def mfx():
+    def mfx():# the decorator must return a function rather than directly calling it
         print("Good morning") 
         fx() 
         print("Thanks for using this function")
