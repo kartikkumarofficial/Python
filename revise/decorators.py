@@ -5,6 +5,7 @@ def greet(fx):
         fx()
         print("thanx for using this function")
     return wrapper
+
 @greet
 def hello():
     print ("hello world")
