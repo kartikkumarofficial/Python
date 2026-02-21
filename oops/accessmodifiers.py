@@ -5,8 +5,6 @@
 # by default everything is public in python
 
 # adding double underscore with make the access limited
-
-
 class Employee:
     def __init__(self):
         self.__name="KK" #private
